@@ -16,42 +16,45 @@
 
 </head>
 
-<body class="container">
+<body>
     <!-------------------------------- header starts  -------------------------->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container container-fluid ">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="logo of panda-commerce">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BackPack</a>
-                        </li>
+       <div>
+            <nav class="navbar  container  navbar-expand-lg navbar-light  bg-light fixed-top ">
+                
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="logo of panda-commerce">
+                    </a>
+                    <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BackPack</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </nav>
+       </div>
 
         <!---carosuel started  -->
         <section style="margin-top: 100px;padding: 0;">
-            <div id="carouselExampleIndicators" class="container carousel slide" data-bs-ride="carousel">
+           
+                <div id="carouselExampleIndicators" class="container carousel slide p-0" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -117,16 +120,17 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+           
+           
         </section>
 
 
     </header>
     <!-------------------------------- ==header ends==-------------------------->
     <!-------------------------------- main starts  -------------------------->
-    <main>
-        <section style="margin-top: 100px;">
-            <div class="container row  g-2">
+    <main class="container p-0">
+        <section  style="margin-top: 100px;">
+            <div class="row p-0 g-2">
                 <div class="col ">
                     <div
                         class="bg-warning d-flex align-items-center justify-content-around text-white py-2  border rounded-3">
@@ -151,7 +155,7 @@
             </div>
         </section>
         <!-- shoes section started  -->
-        <section class="container container-fluid p-0" style="margin-top: 100px;">
+        <section style="margin-top: 100px;">
             <h1 style="text-align: center;">Shoes</h1>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1  g-2">
                 <div class="col">
@@ -208,7 +212,7 @@
         </section>
 
         <!-- Bags section started  -->
-        <section class="container container-fluid p-0" style="margin-top: 100px;">
+        <section  style="margin-top: 100px;">
             <h1 style="text-align: center;">Bags</h1>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1  g-2">
                 <div class="col">
@@ -264,7 +268,7 @@
 
         <!--Subscribe-->
         <section
-            class="container container-fluid subscribe-contain my-5 d-flex align-items-center justify-content-center border-0 rounded-3">
+            class="subscribe-contain my-5 d-flex align-items-center justify-content-center border-0 rounded-3">
             <div>
                 <h3>LET'S STAY IN TOUCH</h3>
                 <p>Get updates on sales, specials and more</p>
